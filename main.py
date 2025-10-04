@@ -39,11 +39,11 @@ def main(page: ft.Page):
         name,
     )
 
+
 if __name__ == "__main__":
-    # Render (y otros hostings) usan la variable de entorno PORT
     ft.app(
         target=main,
-        view=ft.AppView.WEB_BROWSER,
+        view=ft.AppView.WEB_BROWSER,   # Render sirve como web
         host="0.0.0.0",
-        port=int(os.getenv("PORT", 8550))
+        port=int(os.getenv("PORT", 8550))  # Render inyecta PORT
     )
