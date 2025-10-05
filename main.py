@@ -187,10 +187,18 @@ def main(page: ft.Page):
     page.add(ft.Text("🫀 Calculadoras de riesgo", size=26, weight="bold"), selector, container)
     render_form(initial_kind)
 
+#if __name__ == "__main__":
+#    ft.app(
+#        target=main,
+#        view=ft.AppView.WEB_BROWSER,
+#        host="0.0.0.0",
+#        port=int(os.getenv("PORT", 8550))
+#    )
+
 if __name__ == "__main__":
     ft.app(
         target=main,
-        view=ft.AppView.WEB_BROWSER,
-        host="0.0.0.0",
-        port=int(os.getenv("PORT", 8550))
+        view=ft.AppView.FLET_APP,  # clave en Android
+        # host="0.0.0.0",          # quítalo
+        # port=int(os.getenv("PORT", 8550))  # quítalo
     )

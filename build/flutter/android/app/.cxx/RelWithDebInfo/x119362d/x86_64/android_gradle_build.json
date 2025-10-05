@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/home/canojm/flutter/3.29.2/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/canojm/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/canojm/Proyectos/flet-demo/build/flutter/android/app/.cxx/RelWithDebInfo/x119362d/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/canojm/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/canojm/Proyectos/flet-demo/build/flutter/android/app/.cxx/RelWithDebInfo/x119362d/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/canojm/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/canojm/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

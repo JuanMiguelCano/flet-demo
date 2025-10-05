@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/canojm/flutter/3.29.2/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/canojm/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/canojm/Proyectos/flet-demo/build/flutter/android/app/.cxx/RelWithDebInfo/x119362d/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/canojm/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/canojm/Proyectos/flet-demo/build/flutter/android/app/.cxx/RelWithDebInfo/x119362d/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

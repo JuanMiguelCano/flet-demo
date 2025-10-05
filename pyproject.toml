@@ -1,0 +1,20 @@
+[tool.flet]
+# Nombre y versión opcionalmente
+app_name = "Calculadoras cardiovasculares"
+version = "0.1.0"
+
+[tool.flet.android]
+# Opcional: define APIs mínimas/objetivo si quieres
+min_sdk_version = 21
+target_sdk_version = 34   # o 35 si ya usas el último
+
+# Divide por ABI para reducir tamaño (opcional)
+# split_per_abi = true
+
+# ✅ Permitir HTTP claro (necesario para 127.0.0.1)
+[tool.flet.android.manifest_application]
+usesCleartextTraffic = "true"
+
+# (Opcional) Puedes añadir permisos extra si tu app los necesita:
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true   # se añade por defecto, pero lo dejamos explícito
